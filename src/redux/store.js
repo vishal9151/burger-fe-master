@@ -21,4 +21,4 @@ const store=configureStore({
 
 export default store;
 
-export const server = "https://burger-be-betx.onrender.com/api/v1";
+export const server = "https://be.vishalmangla.tech/api/v1";
