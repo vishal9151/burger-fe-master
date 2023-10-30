@@ -19,7 +19,7 @@ const Headers = ({ isAuthenticated, user }) => {
         <Link to="/">Home</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/about">About</Link>
-        {user?.role == "Admin" && (
+        {user?.role != "Admin" && (
           <Link to="/cart">
             <FiShoppingCart />
           </Link>
