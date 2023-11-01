@@ -40,7 +40,6 @@ const Headers = ({ isAuthenticated, user }) => {
               to="/admin/dashboard"
               style={{
                 borderRadius: 0,
-                backgroundColor: "rgb(40,40,40)",
               }}
             >
               <MdDashboard /> Dashboard
