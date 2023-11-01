@@ -20,7 +20,7 @@ export const loadUser = () => async (dispatch) => {
     console.log(error);
     dispatch({
       type: "loadUserFail",
-      payload: error.message,
+      payload: error.response.data.message,
     });
   }
 };
